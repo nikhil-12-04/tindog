@@ -1,0 +1,178 @@
+/* Html Elements */
+body {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* NavBar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Heading */
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  line-height: 1.5;
+}
+.h {
+  font-size: 4.2rem;
+  font-weight: 900;
+  color: white;
+}
+.head {
+font-weight:500;
+}
+.h-1 {
+  font-weight: 900;
+  font-size: 3.2rem;
+}
+.h-2{
+  color:white;
+  font-weight: 900;
+  font-size:3.5rem;
+}
+.head1{
+  font-weight: 700;
+}
+.head2{
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.container-fluid {
+  padding: 3% 15% 4%;
+}
+/* IMAGES */
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+.dog-profile {
+  border-radius: 100%;
+  width: 12%;
+  margin: 20px;
+}
+
+#features {
+  padding: 4% 12%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item {
+  padding: 6% 17%;
+}
+.press-logo {
+  width: 75%;
+  padding-bottom: 3%;
+  margin: 20px 5px 50px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 2% 10%;
+}
+/* Pricing */
+#pricing {
+  padding: 50px 100px 70px;
+  text-align: center;
+}
+.spacing {
+  padding: 3% 2%;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 6% 17% 6%;
+}
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+/* CopyRight */
+.last{
+  color: #8f8f8f;
+  font-weight: 200;
+  text-decoration: none;
+}
+.last:hover{
+  color: grey;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* Font Awesome Icons */
+.icon-1{
+margin: 1% 1%;
+color: #353535;
+}
+.icon-1:hover{
+  color: #000000;
+}
+.icon {
+  color: #ef8172;
+  padding-bottom: 8%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Mobile Version */
+@media (max-width: 992px) {
+.title-img {
+    transform: rotate(0deg);
+  position: static;
+  margin: 0 auto;
+  }
+#features{
+    position: static;
+  }
+#title{
+  text-align: center;
+}
+.h-1{
+  font-size: 2.5rem;
+}
+}
